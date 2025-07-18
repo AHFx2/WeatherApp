@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع الطقس</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+    <script defer src="https://kit.fontawesome.com/dca5919471.js" crossorigin="anonymous"></script>
+    <script defer src="main.js"></script>
+</head>
+<body>
+    <main>
+        <header>
+            <div class="title">
+                <h1>موقع الطقس</h1>
+                <p>احصل على معلومات الطقس الحالي في اي مدينة في العالم</p>
+            </div>
+            <div class="search-box section">
+                <div class="feilds-controllers">
+                    <input type="text" placeholder="ادخل اسم المدينة"> 
+                    <input type="submit" value="ابحث">
+                </div>
+            </div>
+        </header>
+        <section class="content section">
+            <h2>مرحبا بك في موقع الطقس</h2>
+            <p>ادخل اسم المدينة في الحقل لتحصل على معلومات الطقس الحالي</p>
+        </section>
+
+        <section class="content show">
+            <div class="main-info section"> 
+                <h3 class="city-name">
+                    Medihna
+                    <p class="country-code">SA</p>
+                </h3>
+
+                <h4>
+                    <div class="icon"><img src=""></div>
+                    <div class="text">
+                        <span class="temp">17</span>
+                        <p class="description">Sunny</p>
+                    </div>
+                </h4>
+            </div>
+
+            <div class="details">
+                <div id="feel" class="box section">
+                    <div class="icon">
+                        <i class="fa-solid fa-temperature-three-quarters" style="color: #ffa200;"></i>
+                    </div>
+                    <div class="box-details">
+                        <p>الدرجة المحسوسة</p>
+                        <p class="value">30ْC</p>
+                    </div>
+                </div>
+                <div id="humidity" class="box section">
+                    <div class="icon">
+                        <i class="fa-solid fa-droplet" style="color: #74C0FC;"></i>
+                    </div>
+                    <div class="box-details">
+                        <p>الرطوبة</p>
+                        <p class="value">30ْ%</p>
+                    </div>
+                </div>
+                <div id="wind" class="box section">
+                    <div class="icon">
+                        <i class="fa-solid fa-wind" style="color: #254d91;"></i>
+                    </div>
+                    <div class="box-details">
+                        <p>سرعة الرياح</p>
+                        <p class="value">25 km/h</p>
+                    </div>
+                </div>
+                <div id="visibility" class="box section">
+                    <div class="icon">
+                        <i class="fa-solid fa-eye" style="color: #95de3bb9;"></i>
+                    </div>
+                    <div class="box-details">
+                        <p>مدى الرؤية</p>
+                        <p class="value">8 km</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
